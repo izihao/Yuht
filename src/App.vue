@@ -3,16 +3,11 @@ import { RouterView } from 'vue-router'
 </script>
 
 <template>
- <div></div>
-  
 
+  <svgicon icon="Compass" size="100"/>
   <RouterView />
 </template>
 
 <style scoped lang="scss">
-div{
-  width: 100px;
-  height: 100px;
-  background-color: red
-}
+
 </style>
